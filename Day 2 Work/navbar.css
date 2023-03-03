@@ -1,0 +1,82 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+.header {
+  background-color: brown;
+  overflow: hidden;
+}
+.header li {
+  list-style-type: none;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: brown;
+  overflow: hidden;
+}
+.header li:hover {
+  background-color: rgb(185, 163, 143);
+  cursor: pointer;
+}
+.header a {
+  text-decoration: none;
+  font-size: large;
+  font-weight: 600;
+  color: white;
+}
+.home {
+  font-size: xx-large;
+  text-align: justify;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.add {
+  list-style-type: none;
+  font-size: larger;
+  font-weight: 700;
+}
+.about {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#contact {
+  text-align: center;
+  /* background-color: brown; */
+  background-color: #e76f51;
+  margin: 0%;
+  padding: 50px 50px;
+  font-size: larger;
+}
+#contact input {
+  width: 400px;
+  margin: 5px;
+  height: 35px;
+  text-align: center;
+  font-size: large;
+  border: none;
+}
+
+#contact .box {
+  background-color: antiquewhite;
+  width: 500px;
+  height: 300px;
+  padding: 30px 20px 30px 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#contact button {
+  height: 35px;
+  width: 405px;
+  margin: 5px;
+  font-size: large;
+  font-weight: 500;
+  background-color: #e76f51;
+  text-align: center;
+  border: none;
+}
+
+#contact button:hover {
+  background-color: rgb(172, 155, 132);
+  cursor: pointer;
+}
